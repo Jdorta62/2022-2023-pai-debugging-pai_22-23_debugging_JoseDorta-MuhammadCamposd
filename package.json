@@ -1,0 +1,11 @@
+{
+    "name": "2022-2023-pai-debugging-pai_22-23_debugging_JoseDorta-MuhammadCamposd",
+    "version": "1.0.0",
+    "description": "Sets of sample programs to explain debugging in JS",
+    "author": "Jose Gregorio Dorta Luis and Muhammad Campos Preira",
+    "license": "MIT",
+    "dependencies": {
+      "readline-sync": "1.4.9",
+      "yargs": "^17.6.2"
+    }
+  }
