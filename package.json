@@ -5,7 +5,11 @@
     "author": "Jose Gregorio Dorta Luis and Muhammad Campos Preira",
     "license": "MIT",
     "dependencies": {
-      "readline-sync": "1.4.9",
-      "yargs": "^17.6.2"
+        "readline-sync": "1.4.9",
+        "yargs": "^17.6.2"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.1",
+        "tsconfig-paths": "^4.1.2"
     }
-  }
+}
