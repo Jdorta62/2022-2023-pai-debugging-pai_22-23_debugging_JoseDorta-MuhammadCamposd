@@ -1,0 +1,66 @@
+apt update
+apt search ovirt
+sudo su
+sudo su
+ls
+ls
+cd ..
+ls
+cd usuario/
+mkdir PAI
+sudo apt update
+sudo apt upgrade
+sudo apt autoremove 
+sudo vi /etc/hostname 
+sudo vi /etc/hosts
+clear
+sudo reboot
+ls
+ll
+sudo apt install git
+git --version 
+ls -al .ssh
+ls -al ~/.ssh
+clear
+ssh --version
+ssh-keygen -t rsa -b 4096 -C "alu0101414676@ull.edu.es"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+cd .ssh/
+ls
+cat id_rsa
+cat id_rsa.pub 
+cd 
+ls
+cd PAI/
+mkdir practicas
+git clone git@github.com:ULL-ESIT-PAI-2022-2023/2022-2023-pai-p01-environment-Jdorta62.git
+ls
+mv 2022-2023-pai-p01-environment-Jdorta62/ practicas/
+ls
+cd practicas/
+cd ..
+ll
+cd practicas/
+ll
+cd 2022-2023-pai-p01-environment-Jdorta62/
+ll
+cd
+ls
+ls -l
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install -y nodejs
+node --version
+nm --version
+npm --version
+npx --version
+ls
+cd practicas/
+ls
+cd 2022-2023-pai-p01-environment-Jdorta62/
+ls
+npm install
+npm start
+nohup sudo -b npm start
+ps
+history -a
